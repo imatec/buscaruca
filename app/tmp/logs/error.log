@@ -1,0 +1,615 @@
+2014-03-30 06:56:20 Error: [MissingControllerException] Controller class ProspectController could not be found.
+Exception Attributes: array (
+  'class' => 'ProspectController',
+  'plugin' => NULL,
+)
+Request URL: /prospect/add
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 14:12:43 Error: [MissingControllerException] Controller class ProspectController could not be found.
+Exception Attributes: array (
+  'class' => 'ProspectController',
+  'plugin' => NULL,
+)
+Request URL: /prospect/add
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 14:40:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 17:08:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/dashboard.min.css
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 17:09:30 Error: [MissingHelperException] Helper class helperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'helperHelper',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('helper')
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(824): HelperCollection->__isset('helper')
+#2 /var/www/buscaruca.imatec.cl/app/View/Layouts/default.ctp(34): View->__get('helper')
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(935): include('/var/www/buscar...')
+#4 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(897): View->_evaluate('/var/www/buscar...', Array)
+#5 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(529): View->_render('/var/www/buscar...')
+#6 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(474): View->renderLayout('', 'default')
+#7 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#8 /var/www/buscaruca.imatec.cl/app/Controller/PagesController.php(70): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-03-30 17:09:56 Error: [MissingHelperException] Helper class HelperHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HelperHelper',
+  'plugin' => false,
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Helper')
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(824): HelperCollection->__isset('Helper')
+#2 /var/www/buscaruca.imatec.cl/app/View/Layouts/default.ctp(34): View->__get('Helper')
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(935): include('/var/www/buscar...')
+#4 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(897): View->_evaluate('/var/www/buscar...', Array)
+#5 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(529): View->_render('/var/www/buscar...')
+#6 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(474): View->renderLayout('', 'default')
+#7 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#8 /var/www/buscaruca.imatec.cl/app/Controller/PagesController.php(70): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-03-30 17:10:10 Error: Fatal Error (1): Call to undefined method View::Html() in [/var/www/buscaruca.imatec.cl/app/View/Layouts/default.ctp, line 34]
+2014-03-30 17:10:10 Error: [FatalErrorException] Call to undefined method View::Html()
+Request URL: /
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/buscar...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/buscar...', 34, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/buscar...', 34, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 17:14:08 Error: [MissingActionException] Action SearchesController::all() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchesController',
+  'action' => 'all',
+)
+Request URL: /searches/all
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-30 17:14:13 Error: [MissingActionException] Action SearchesController::new() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchesController',
+  'action' => 'new',
+)
+Request URL: /searches/new
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-30 17:16:47 Error: [MissingActionException] Action SearchesController::new() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchesController',
+  'action' => 'new',
+)
+Request URL: /searches/new
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-30 17:16:53 Error: [NotFoundException] Invalid search
+Request URL: /searches/view
+Stack Trace:
+#0 [internal function]: SearchesController->view()
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-30 17:17:00 Error: [NotFoundException] Invalid prospect
+Request URL: /prospects/view
+Stack Trace:
+#0 [internal function]: ProspectsController->view()
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProspectsController), Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-30 19:10:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null
+Request URL: /prospects/add
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Prospect), Array, Array)
+#4 /var/www/buscaruca.imatec.cl/app/Controller/ProspectsController.php(52): Model->save(Array)
+#5 [internal function]: ProspectsController->add()
+#6 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProspectsController), Array)
+#7 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-30 19:10:33 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null
+Request URL: /prospects/add
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Prospect), Array, Array)
+#4 /var/www/buscaruca.imatec.cl/app/Controller/ProspectsController.php(52): Model->save(Array)
+#5 [internal function]: ProspectsController->add()
+#6 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProspectsController), Array)
+#7 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-30 21:01:53 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp',
+)
+Request URL: /prospects
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-30 21:02:13 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp',
+)
+Request URL: /prospects
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-30 21:07:49 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp, line 20]
+2014-03-30 21:07:49 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /prospects
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 20, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 20, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 21:08:05 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp, line 20]
+2014-03-30 21:08:05 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /prospects
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 20, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 20, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 21:08:09 Error: Fatal Error (4): syntax error, unexpected '<' in [/var/www/buscaruca.imatec.cl/app/View/Prospects/index.ctp, line 20]
+2014-03-30 21:08:09 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /prospects
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 20, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 20, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 21:20:28 Error: Fatal Error (1): Call to a member function button() on a non-object in [/var/www/buscaruca.imatec.cl/app/View/Prospects/add.ctp, line 14]
+2014-03-30 21:20:28 Error: [FatalErrorException] Call to a member function button() on a non-object
+Request URL: /prospects/add
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/buscar...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/buscar...', 14, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/buscar...', 14, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:42:47 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:42:47 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /users/auth_login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:43:49 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:43:49 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /auth_login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:43:54 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:43:54 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /auth_login/google
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:47:48 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:47:48 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /auth_login/
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:48:03 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:48:03 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /auth_login/google
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:48:22 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:48:22 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /auth_login/Google
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:48:49 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 200]
+2014-04-01 04:48:49 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /auth_login/Google
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 200)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 200, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 04:49:21 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-01 04:49:56 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-01 04:50:45 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-01 20:36:59 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-01 20:55:07 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-01 21:03:50 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:06:43 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:09:12 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:09:20 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:10:19 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:11:17 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:11:54 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:11:59 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:12:23 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:13:44 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:14:02 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:16:01 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/var/www/buscaruca.imatec.cl/app/Controller/UsersController.php, line 213]
+2014-04-01 21:16:01 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /auth_login/
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 213)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 213, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 213, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-01 21:17:22 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:17:41 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-01 21:17:58 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 04:16:33 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 04:19:01 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 04:21:43 Error: [MissingViewException] View file "/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/buscaruca.imatec.cl/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 17:55:25 Error: Fatal Error (4): syntax error, unexpected ':', expecting ';' in [/var/www/buscaruca.imatec.cl/app/View/Layouts/default.ctp, line 43]
+2014-04-02 17:55:25 Error: [FatalErrorException] syntax error, unexpected ':', expecting ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 43, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 43, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 17:55:47 Error: Fatal Error (4): syntax error, unexpected ':', expecting ';' in [/var/www/buscaruca.imatec.cl/app/View/Layouts/default.ctp, line 43]
+2014-04-02 17:55:47 Error: [FatalErrorException] syntax error, unexpected ':', expecting ';'
+Request URL: /
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/buscar...', 43)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/buscar...', 43, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/buscar...', 43, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-02 18:41:18 Error: [MissingComponentException] Component class ExtAuthComponent could not be found.
+Exception Attributes: array (
+  'class' => 'ExtAuthComponent',
+  'plugin' => false,
+)
+Request URL: /auth_login/
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('ExtAuth', Array)
+#1 /var/www/buscaruca.imatec.cl/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/buscaruca.imatec.cl/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-02 19:22:41 Error: Fatal Error (1): Call to a member function loggedIn() on a non-object in [/var/www/buscaruca.imatec.cl/app/Controller/AppController.php, line 52]
+2014-04-02 19:22:41 Error: [FatalErrorException] Call to a member function loggedIn() on a non-object
+Request URL: /haexample
+Stack Trace:
+#0 /var/www/buscaruca.imatec.cl/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/buscar...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/buscar...', 52, Array)
+#2 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/buscar...', 52, Array)
+#3 /var/www/buscaruca.imatec.cl/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
