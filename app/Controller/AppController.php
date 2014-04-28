@@ -35,18 +35,32 @@ class AppController extends Controller {
 		'DebugKit.Toolbar',
 		//'ExtAuth.ExtAuth',
 		'Session',
-		/*'Auth' => array(
-			'loginRedirect' => array('controller' => 'users', 'action' => 'index'),
-			'logoutRedirect' => array('controller' => 'users', 'action' => 'index'),
-			'authError' => 'You can´t access that page',
-			'authorize' => array('Controller')
-			)*/
-		);
+		'Session',
+	    'Auth' => array(
+	        'loginRedirect' => array('controller' => 'posts', 'action' => 'index'),
+	        'logoutRedirect' => array(
+	            'controller' => 'pages',
+	            'action' => 'display',
+	            'home'
+	        ),
+	        'authorize' => array('Controller')
+    	)
+    );
 	/*
 	public function isAuthorized($user){
 		return true;
 	}
 */
+	public function isAuthorized($user) {
+	    // Admin can access every action
+	    if (isset($user['role']) && $user['role'] === 'admin') {
+	        return true;
+	    }
+
+    	// Default deny
+    	return false;
+	}
+
 	public function beforeFilter(){
 		//$this->Auth->allow('index', 'view');
 	//	$this->set('logged_in', $this->Auth->loggedIn());

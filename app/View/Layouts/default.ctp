@@ -31,21 +31,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
-            
-            <?php if($logged_in): ?>
             <li>
-              Wellcome <?php echo $current_user['username']; ?>
-              </li>
-              <li><?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'))?></li>
-            <?php else : ?>
-            <li>
-             <?php echo $this->Html->link('Login', array('controller' => 'users', 'action' => 'logout'));?></li>
-            <?php endif;?>
-            
+              <a>Welcome <b><?php echo AuthComponent::user('username'); ?></b></a>
+            </li>
+            <li><?php echo $this->Html->link('Logout', array('controller' => 'users', 'action' => 'logout'))?>
+            </li>
           </ul>
           <!--
           <form class="navbar-form navbar-right">
@@ -70,8 +60,7 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <?php echo $this->Session->flash(); ?>
           <?php echo $this->Session->flash('auth'); ?>
-
-			<?php echo $this->fetch('content'); ?>
+			    <?php echo $this->fetch('content'); ?>
           
         </div>
       </div>

@@ -31,6 +31,8 @@ class SearchesController extends AppController {
 	public function index() {
 		$this->Search->recursive = 0;
 		$this->set('searches', $this->Paginator->paginate());
+		$this->set('logged_in', $this->Auth->loggedIn());
+		$this->set('user_info', $this->Auth->user());
 	}
 
 /**
@@ -46,6 +48,7 @@ class SearchesController extends AppController {
 		}
 		$options = array('conditions' => array('Search.' . $this->Search->primaryKey => $id));
 		$this->set('search', $this->Search->find('first', $options));
+		
 	}
 
 /**
