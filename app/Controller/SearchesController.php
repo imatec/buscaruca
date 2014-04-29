@@ -31,7 +31,21 @@ class SearchesController extends AppController {
 	public function index() {
 		$this->Search->recursive = 0;
 		$this->set('searches', $this->Paginator->paginate());
-		$this->set('logged_in', $this->Auth->loggedIn());
+		$this->set('user_info', $this->Auth->user());
+	}
+
+/**
+ * mysearches method
+ *
+ * @return void
+ */
+	public function mysearches() {
+		$this->Search->recursive = 0;
+		$this->Paginator->settings = array(
+        	'conditions' => array('Search.user_id' => $this->Auth->user('id')),
+        	'limit' => 10
+    	);
+		$this->set('searches', $this->Paginator->paginate());
 		$this->set('user_info', $this->Auth->user());
 	}
 
@@ -59,6 +73,8 @@ class SearchesController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Search->create();
+			debug($this->request->data);
+			$this->request->data['Search']['user_id'] = $this->Auth->user('id');
 			if ($this->Search->save($this->request->data)) {
 				$this->Session->setFlash(__('The search has been saved.'));
 				return $this->redirect(array('action' => 'index'));

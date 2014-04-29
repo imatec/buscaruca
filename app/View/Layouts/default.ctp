@@ -50,7 +50,8 @@
         <div class="col-sm-3 col-md-2 sidebar">
 
           <ul class="nav nav-sidebar">
-            <li><?php echo $this->Html->link(__('All Searches'), '/searches'); ?></li>
+            <!--<li><?php echo $this->Html->link(__('All Searches'), '/searches'); ?></li>-->
+            <li><?php echo $this->Html->link(__('My Searches'), '/searches/mysearches'); ?></li>
             <li><?php echo $this->Html->link(__('New Search'), '/searches/add'); ?></li>
             <li><?php echo $this->Html->link(__('All Prospects'), '/prospects'); ?></li>
             <li><?php echo $this->Html->link(__('New Prospect'), '/prospects/add'); ?></li>

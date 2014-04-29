@@ -824,3 +824,90 @@ Stack Trace:
 #11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
 #12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2014-04-28 21:48:56 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'userId' doesn't have a default value
+Request URL: /searches/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Search), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(63): Model->save(Array)
+#5 [internal function]: SearchesController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 21:53:41 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+Request URL: /searches/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Search), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(63): Model->save(Array)
+#5 [internal function]: SearchesController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 21:55:08 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+Request URL: /searches/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Search), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(62): Model->save(Array)
+#5 [internal function]: SearchesController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 21:57:41 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'CURRENT_TIMESTAMP' for column 'created' at row 1
+Request URL: /searches/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Search), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(63): Model->save(Array)
+#5 [internal function]: SearchesController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-28 21:59:18 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'CURRENT_TIMESTAMP' for column 'created' at row 1
+Request URL: /searches/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Search), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(63): Model->save(Array)
+#5 [internal function]: SearchesController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-04-29 04:52:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'searches.user_id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(48): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
