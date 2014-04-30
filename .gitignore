@@ -18,3 +18,21 @@ app/tmp/cache/persistent/myapp_cake_core_method_cache
 *.log
 
 app/tmp/logs/error.log
+
+app/tmp/cache/models/myapp_cake_model_default_buscaruca_list
+
+app/tmp/cache/models/myapp_cake_model_default_buscaruca_list
+
+app/tmp/cache/persistent/myapp_cake_core_cake_dev_en-us
+
+app/tmp/cache/models/myapp_cake_model_default_buscaruca_list
+
+app/tmp/cache/persistent/myapp_cake_core_cake_en-us
+
+app/tmp/cache/persistent/myapp_cake_core_debug_kit_en-us
+
+app/tmp/cache/persistent/myapp_cake_core_debug_kit_en-us
+
+app/tmp/cache/persistent/myapp_cake_core_default_en-us
+
+*.log

@@ -911,6 +911,7 @@ Stack Trace:
 #11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
 #12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+<<<<<<< HEAD
 2014-04-30 17:38:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
 Exception Attributes: array (
   'class' => 'Mysql',
@@ -1007,3 +1008,30 @@ Stack Trace:
 #10 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #11 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+=======
+2014-04-30 05:23:28 Error: [MissingActionException] Action SearchesController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'SearchesController',
+  'action' => '2',
+)
+Request URL: /searches/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-04-30 05:37:09 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'address' doesn't have a default value
+Request URL: /prospects/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Prospect), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/ProspectsController.php(52): Model->save(Array)
+#5 [internal function]: ProspectsController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ProspectsController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(ProspectsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+>>>>>>> FETCH_HEAD
