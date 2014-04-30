@@ -911,3 +911,99 @@ Stack Trace:
 #11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
 #12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2014-04-30 17:38:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3498): Model->setSource('users')
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/jorge/Sites/buscaruca/app/View/Users/login.ctp(1): FormHelper->create('User', Array)
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(935): include('/Users/jorge/Si...')
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(897): View->_evaluate('/Users/jorge/Si...', Array)
+#11 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(466): View->_render('/Users/jorge/Si...')
+#12 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-30 17:39:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'buscaruca\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3498): Model->setSource('users')
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/jorge/Sites/buscaruca/app/View/Users/login.ctp(1): FormHelper->create('User', Array)
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(935): include('/Users/jorge/Si...')
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(897): View->_evaluate('/Users/jorge/Si...', Array)
+#11 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(466): View->_render('/Users/jorge/Si...')
+#12 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-30 17:39:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'buscaruca\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3498): Model->setSource('users')
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#7 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/jorge/Sites/buscaruca/app/View/Users/login.ctp(1): FormHelper->create('User', Array)
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(935): include('/Users/jorge/Si...')
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(897): View->_evaluate('/Users/jorge/Si...', Array)
+#11 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(466): View->_render('/Users/jorge/Si...')
+#12 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#13 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#14 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-04-30 17:55:04 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(3498): Model->setSource('users')
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(207): Model->schema()
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/View/Helper/FormHelper.php(459): FormHelper->_introspectModel('User', 'fields')
+#4 /Users/jorge/Sites/buscaruca/app/View/Users/login.ctp(1): FormHelper->create('User', Array)
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(935): include('/Users/jorge/Si...')
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(897): View->_evaluate('/Users/jorge/Si...', Array)
+#7 /Users/jorge/Sites/buscaruca/lib/Cake/View/View.php(466): View->_render('/Users/jorge/Si...')
+#8 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}

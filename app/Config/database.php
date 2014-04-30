@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		//'login' => 'root',
 		'login' => 'buscaruca',
-		//'password' => 'zewYqJB3jwDqYRQx',
+		//'password' => '8cNASXXeWXdHsDzH',
 		'password' => '',
 		'database' => 'buscaruca',
 		'prefix' => '',
