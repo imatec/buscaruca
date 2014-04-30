@@ -13,4 +13,10 @@ class Search extends AppModel {
  */
 	public $displayField = 'name';
 
+	public $hasMany = array(
+		'Prospect' => array(
+            'className' => 'Prospect'
+			)
+		);
+
 }

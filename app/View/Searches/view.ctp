@@ -1,5 +1,8 @@
 <div class="searches view">
-<h2><?php echo __('Search'); ?></h2>
+	<?php
+		debug($search);
+	?>
+<h2><?php echo __('Search').' '.$search['Search']['name']; ?></h2>
 	<dl>
 		<dt><?php echo __('Id'); ?></dt>
 		<dd>
@@ -13,7 +16,7 @@
 		</dd>
 		<dt><?php echo __('Creator Id'); ?></dt>
 		<dd>
-			<?php echo h($search['Search']['creator_id']); ?>
+			<?php echo h($search['Search']['user_id']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Created'); ?></dt>
@@ -28,12 +31,26 @@
 		</dd>
 	</dl>
 </div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Search'), array('action' => 'edit', $search['Search']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Search'), array('action' => 'delete', $search['Search']['id']), null, __('Are you sure you want to delete # %s?', $search['Search']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Searches'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Search'), array('action' => 'add')); ?> </li>
-	</ul>
-</div>
+uhuh
+	<table cellpadding="0" cellspacing="0" class="table table-condensed">
+	<tr>
+			<th><?php echo __('name'); ?></th>
+			<th><?php echo __('url'); ?></th>
+			<th><?php echo __('score'); ?></th>
+			<th><?php echo __('google_maps_url'); ?></th>
+			<th><?php echo __('state_id'); ?></th>
+			<th><?php echo __('created'); ?></th>
+			<th><?php echo __('modified'); ?></th>
+	</tr>
+	<?php foreach ($search['Prospect'] as $prospect): ?>
+	<tr>
+		<td><?php echo h($prospect['name']); ?>&nbsp;</td>
+		<td><?php echo $this->html->link(substr($prospect['url'], 0, 20), $prospect['url']); ?>&nbsp;</td>
+		<td><?php echo h($prospect['score']); ?>&nbsp;</td>
+		<td><?php echo h($prospect['google_maps_url']); ?>&nbsp;</td>
+		<td><?php echo h($prospect['state_id']); ?>&nbsp;</td>
+		<td><?php echo h($prospect['created']); ?>&nbsp;</td>
+		<td><?php echo h($prospect['modified']); ?>&nbsp;</td>
+	</tr>
+	<?php endforeach; ?>
+	</table>
