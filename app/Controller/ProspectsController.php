@@ -46,18 +46,19 @@ class ProspectsController extends AppController {
  *
  * @return void
  */
-	public function add() {
+	public function add($search_id = null) {
 		if ($this->request->is('post')) {
 			$this->Prospect->create();
 			if ($this->Prospect->save($this->request->data)) {
 				$this->Session->setFlash(__('The prospect has been saved.'));
-				return $this->redirect(array('action' => 'index'));
+				return $this->redirect(array('controller' => 'searches', 'action' => 'view', $this->request->data['Prospect']['search_id']));
+				//return $this->redirect($this->referer());
 			} else {
 				$this->Session->setFlash(__('The prospect could not be saved. Please, try again.'));
 			}
 		}
 		$searches = $this->Prospect->Search->find('list');
-		$this->set(compact('searches'));
+		$this->set(compact('searches', 'search_id'));
 	}
 
 /**

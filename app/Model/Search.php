@@ -13,10 +13,18 @@ class Search extends AppModel {
  */
 	public $displayField = 'name';
 
+	public $belongsTo = array(
+		'User'  => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id'
+			)
+		);
 	public $hasMany = array(
 		'Prospect' => array(
             'className' => 'Prospect'
+			),
+		'Collaborator' => array(
+			'className' => 'Collaborator'
 			)
 		);
-
 }
