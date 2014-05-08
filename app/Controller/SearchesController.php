@@ -41,8 +41,24 @@ class SearchesController extends AppController {
  */
 	public function mysearches() {
 		$this->Search->recursive = 0;
+
+		$conditions = array(
+			//'Search.user_id' => $this->Auth->user('id')
+			'Collaborators.user_id' => $this->Auth->user('id')
+		);
+
 		$this->Paginator->settings = array(
-        	'conditions' => array('Search.user_id' => $this->Auth->user('id')),
+        	'conditions' => $conditions,
+        	'joins' => array(
+        					array(
+        						'table' => 'collaborators',
+        						'alias' => 'Collaborators',
+        						'type' => 'INNER',
+        						'conditions' => array(
+        							'Collaborators.search_id = Search.id'
+        							)
+        						)
+        					),
         	'limit' => 10
     	);
 		$this->set('searches', $this->Paginator->paginate());
@@ -60,8 +76,13 @@ class SearchesController extends AppController {
 		if (!$this->Search->exists($id)) {
 			throw new NotFoundException(__('Invalid search'));
 		}
-		$options = array('conditions' => array('Search.' . $this->Search->primaryKey => $id));
-		$this->set('search', $this->Search->find('first', $options));
+		$options = array(
+			'conditions' => array('Search.' . $this->Search->primaryKey => $id),
+			'recursive' => 2
+			);
+		$search = $this->Search->find('first', $options);
+		$collaborators = $this->Search->Collaborator->getBySearch($id);
+		$this->set(compact('search', 'collaborators'));
 		
 	}
 

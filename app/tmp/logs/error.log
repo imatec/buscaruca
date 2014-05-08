@@ -1875,3 +1875,971 @@ Request URL: /fonts/glyphicons-halflings-regular.svg
 Stack Trace:
 #0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-05-03 06:41:13 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 06:41:13 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 06:41:13 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 06:57:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaboration.user.id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(54): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-03 07:16:05 Error: Fatal Error (4): parse error, expecting `')'' in [/Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php, line 61]
+2014-05-03 07:16:05 Error: [FatalErrorException] parse error, expecting `')''
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'parse error, ex...', '/Users/jorgealv...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error, ex...', '/Users/jorgealv...', 61, Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'parse error, ex...', '/Users/jorgealv...', 61, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 07:17:07 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buscaruca.collaboration' doesn't exist
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-03 07:17:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaboration.user.id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-03 07:17:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaboration.user.id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-03 07:17:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaboration.user.id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-03 07:19:03 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Request URL: /collaborations/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Collaboration), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/CollaborationsController.php(52): Model->save(Array)
+#5 [internal function]: CollaborationsController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CollaborationsController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CollaborationsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-04 21:17:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 21:17:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 21:17:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:02:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:02:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:02:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:53:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:53:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:53:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:58:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:58:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-06 05:58:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:14:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:14:47 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:14:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:28:07 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:28:07 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:28:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:28:48 Error: Fatal Error (1): Call to a member function getBySearch() on a non-object in [/Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php, line 81]
+2014-05-07 03:28:48 Error: [FatalErrorException] Call to a member function getBySearch() on a non-object
+Request URL: /searches/view/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jorgealv...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jorgealv...', 81, Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jorgealv...', 81, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-07 03:29:16 Error: Fatal Error (1): Call to a member function getBySearch() on a non-object in [/Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php, line 81]
+2014-05-07 03:29:16 Error: [FatalErrorException] Call to a member function getBySearch() on a non-object
+Request URL: /searches/view/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jorgealv...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jorgealv...', 81, Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jorgealv...', 81, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-07 03:30:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:30:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:30:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:30:21 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:30:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:30:22 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:35:03 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:35:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:35:04 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:35:31 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:35:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:35:32 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:48:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaboration.search_id' in 'where clause'
+Request URL: /searches/view/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Collabo...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Collabo...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Collabo...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Collaborator), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Model/Collaborator.php(44): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(84): Collaborator->getBySearch('2')
+#8 [internal function]: SearchesController->view('2')
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 03:48:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:48:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:48:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:49:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:49:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:49:20 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:50:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:50:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:50:54 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:51:07 Error: [MissingControllerException] Controller class CollaborationsController could not be found.
+Exception Attributes: array (
+  'class' => 'CollaborationsController',
+  'plugin' => NULL,
+)
+Request URL: /collaborations/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:51:17 Error: [MissingControllerException] Controller class CollaboratorsController could not be found.
+Exception Attributes: array (
+  'class' => 'CollaboratorsController',
+  'plugin' => NULL,
+)
+Request URL: /collaborators/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:51:22 Error: [MissingControllerException] Controller class CollaboratorController could not be found.
+Exception Attributes: array (
+  'class' => 'CollaboratorController',
+  'plugin' => NULL,
+)
+Request URL: /collaborator/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 03:52:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/CollaboratorsController.php, line 59]
+2014-05-07 03:52:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /collaborators/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/jorgealv...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/jorgealv...', 59, Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/jorgealv...', 59, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-07 03:53:55 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value
+Request URL: /collaborators/add
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `bu...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `bu...')
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(1832): DboSource->create(Object(Collaborator), Array, Array)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/CollaboratorsController.php(52): Model->save(Array)
+#5 [internal function]: CollaboratorsController->add()
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CollaboratorsController), Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CollaboratorsController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-05-07 04:08:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:08:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:08:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:11:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:11:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:11:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:17:50 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buscaruca.collaborations' doesn't exist
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 04:17:54 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buscaruca.collaborations' doesn't exist
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 04:20:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaborator.user_id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 04:20:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaborator.user_id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 04:20:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Collaborator.user_id' in 'where clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 04:36:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:36:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:36:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:36:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:36:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:36:57 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:38:11 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:38:11 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:38:12 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:44:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.search_id' in 'on clause'
+Request URL: /searches/view/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('first', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(83): Model->find('first', Array)
+#7 [internal function]: SearchesController->view('2')
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-05-07 04:44:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Users.search_id' in 'on clause'
+Request URL: /searches/view/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('first', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(83): Model->find('first', Array)
+#7 [internal function]: SearchesController->view('2')
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-05-07 04:44:45 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:44:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:44:46 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:46:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.search_id' in 'on clause'
+Request URL: /searches/view/2
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('first', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(83): Model->find('first', Array)
+#7 [internal function]: SearchesController->view('2')
+#8 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-05-07 04:53:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.search_id' in 'on clause'
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-07 04:56:34 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:56:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:56:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:57:01 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:57:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-07 04:57:02 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-08 04:32:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-08 04:32:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-08 04:32:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
