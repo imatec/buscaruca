@@ -1035,3 +1035,135 @@ Stack Trace:
 #9 /Users/jorgealvarezsolovioff/pet_proyects/buscaruca.local/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
 >>>>>>> FETCH_HEAD
+2014-05-11 11:35:10 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buscaruca.collaborators' doesn't exist
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorge/Sites/buscaruca/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-11 11:35:30 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buscaruca.collaborators' doesn't exist
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorge/Sites/buscaruca/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-11 11:35:33 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'buscaruca.collaborators' doesn't exist
+Request URL: /searches/mysearches
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Search`...', Array)
+#2 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `Search`...', Array, Array)
+#3 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Search`...', false)
+#4 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Search), Array)
+#5 /Users/jorge/Sites/buscaruca/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#6 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /Users/jorge/Sites/buscaruca/app/Controller/SearchesController.php(64): PaginatorComponent->paginate()
+#8 [internal function]: SearchesController->mysearches()
+#9 /Users/jorge/Sites/buscaruca/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SearchesController), Array)
+#10 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/jorge/Sites/buscaruca/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SearchesController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-05-11 11:43:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-11 11:43:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-11 11:43:08 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-17 20:59:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-17 20:59:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-17 20:59:39 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-17 21:00:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-17 21:00:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-17 21:00:09 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /fonts/glyphicons-halflings-regular.svg
+Stack Trace:
+#0 /Users/jorge/Sites/buscaruca/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
